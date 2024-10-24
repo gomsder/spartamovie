@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>으랏챠</title>
+    <link rel="stylesheet" href="movies.css">
+</head>
+
+<body class="background">
+    <header class="header">
+        <div class="main">
+            <h1 class="main2">으랏챠!</h1>
+            <button class="bookmarksBtn"><span style="color: rgb(202, 202, 202);">북마크</button>
+            <button class="todayMovieBtn"><span style="color: rgb(202, 202, 202);">오늘의 영화</button>
+        </div>
+        <div class="rightNav">
+            <div class="search">
+                <input type="text" id="searchInput" placeholder="콘텐츠,태그,인물,리스트 검색">
+                <button type="submit" class="searchBtn">검색</button>
+            </div>
+            <button class="loginBtn">로그인</button>
+            <button class="joinBtn">회원가입</button>
+        </div>
+        
+    </header>
+    <div class="firstTitle"><span class="uratcha">으랏챠! </span>최고의 인기영화를 소개합니다!</div>
+    <div class="movie-container"></div>
+    <div class="modal-background">
+        <div class="modal">
+            <img src="" alt="=" />
+            <h2>안녕하세바리용</h2>
+            <p>Description</p>
+            <p>Rating</p>
+            <button>close</button>
+        </div>
+    </div>
+    <div class="bookMark-container"></div>
+    <script src="movies_search.js" type="module"></script>
+    <script src="movies_modal.js" type="module"></script>
+</body>
+
+</html>
